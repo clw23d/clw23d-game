@@ -20,7 +20,7 @@ public class ball_collision : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.name == "Plane")
+        if (collision.gameObject.name == "Ground")
         {
             //set the sphere's position to the initial position
             transform.position = initialPosition;
